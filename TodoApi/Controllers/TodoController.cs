@@ -26,6 +26,7 @@ namespace TodoApi.Controllers
             }
         }
 
+
         [HttpGet]
         public IEnumerable<TodoItem> GetAll()
         {
